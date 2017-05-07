@@ -1,0 +1,27 @@
+@import "reset/reset.css";
+
+@import "var/var.scss";
+
+@import "header/header.scss";
+@import "header/__menu/header__menu.scss";
+@import "header/__home/header__home.scss";
+
+@import "services/services.scss";
+@import "services/__skills/services__skills.scss";
+
+@import "clients/clients.scss";
+@import "clients/_arrows/clients_arrows.scss";
+@import "clients/__logos/clients__logos.scss";
+
+@import "team/team.scss";
+@import "team/__social/team__social.scss";
+
+@import "contact/contact.scss";
+@import "contact/__column/contact__column.scss";
+@import "contact/__column/_left/contact__column_left.scss";
+@import "contact/__column/_right/contact__column_right.scss";
+
+@import "footer/footer.scss";
+
+@import "media/media__tablet.scss";
+@import "media/media__phone.scss";

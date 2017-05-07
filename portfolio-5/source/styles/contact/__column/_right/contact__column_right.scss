@@ -1,0 +1,13 @@
+.form__input,
+.form__textarea{
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.form__textarea{
+  height: 190px;
+  resize: none;
+}

@@ -1,0 +1,19 @@
+.banner{
+	min-height: 237px;
+	position: relative;
+	background-image: url(../images/top-img.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+}
+
+.banner__text{
+  display: inline-block;
+  position: absolute;
+  top: 15%;
+  right: 0;
+	font-size: 28px;
+	color: #001537;
+	text-align: center;
+	font-weight: bold;
+}
