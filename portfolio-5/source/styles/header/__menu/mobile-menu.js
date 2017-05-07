@@ -1,5 +1,6 @@
-var touch = $('.drop-menu');
-  var menu = $('.nav');
+$(document).ready(function() {
+  var touch = $('.mobile-menu');
+  var menu = $('.menu');
 
   $(touch).on('click', function() {
     menu.stop(false, true).slideToggle();
@@ -7,7 +8,8 @@ var touch = $('.drop-menu');
 
   $(window).resize(function() {
     var wid = $(window).width();
-    if (wid > 739 && menu.is(':hidden')) {
+    if (wid > 979 && menu.is(':hidden')) {
       menu.removeAttr('style');
     }
+  });
 });
