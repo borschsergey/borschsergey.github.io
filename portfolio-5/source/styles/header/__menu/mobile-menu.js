@@ -1,4 +1,5 @@
-var touch = $('.mobile-menu');
+$(document).ready(function() {
+  var touch = $('.mobile-menu');
   var menu = $('.menu');
 
   $(touch).on('click', function() {
@@ -10,4 +11,5 @@ var touch = $('.mobile-menu');
     if (wid > 979 && menu.is(':hidden')) {
       menu.removeAttr('style');
     }
+  });
 });
