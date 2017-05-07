@@ -1,0 +1,305 @@
+@import url(reset/reset.css);
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/page\/page\.scss}line{font-family:\000031}}
+.page-bg-shadow {
+  width: 100%;
+  position: absolute;
+  top: -60px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #b9e0eb;
+  box-shadow: 30px 0px 0px #b9e0eb, -30px 0px 0px #b9e0eb; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/page\/page\.scss}line{font-family:\0000311}}
+.wrapper {
+  background-color: #3cadcd;
+  width: 100%;
+  line-height: 1.2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/page\/page\.scss}line{font-family:\0000317}}
+.container {
+  max-width: 900px;
+  position: relative;
+  margin: 0px auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/header\/header\.scss}line{font-family:\000031}}
+.header {
+  position: relative;
+  width: 100%;
+  background: -webkit-linear-gradient(90deg, #FFFFFF 0, #E3E3E3 100%);
+  background: linear-gradient(0deg, #FFFFFF 0, #E3E3E3 100%);
+  border-bottom: 4px solid #0f2b33; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/header\/header\.scss}line{font-family:\000038}}
+.logo,
+.social {
+  display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/header\/header\.scss}line{font-family:\0000313}}
+.logo {
+  padding: 25px 20px 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/header\/header\.scss}line{font-family:\0000317}}
+.logo__image {
+  padding-right: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/header\/header\.scss}line{font-family:\0000321}}
+.logo__header {
+  display: inline-block;
+  font-family: 'Vijaya' sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  vertical-align: top; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/header\/header\.scss}line{font-family:\0000329}}
+.social {
+  position: absolute;
+  bottom: 15px;
+  right: 11px;
+  height: 21px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/header\/header\.scss}line{font-family:\0000336}}
+.social__element_fb,
+.social__element_tw,
+.social__element_in {
+  display: inline-block;
+  position: relative;
+  width: 21px;
+  height: 21px;
+  margin: 0 4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/header\/header\.scss}line{font-family:\0000346}}
+.social__element_fb {
+  background-image: url(../images/social.png);
+  background-position: 0px 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/header\/header\.scss}line{font-family:\0000351}}
+.social__element_tw {
+  background-image: url(../images/social.png);
+  background-position: 49px 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/header\/header\.scss}line{font-family:\0000356}}
+.social__element_in {
+  background-image: url(../images/social.png);
+  background-position: 98px 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/banner\/banner\.scss}line{font-family:\000031}}
+.banner {
+  margin-top: 10px;
+  min-height: 240px;
+  position: relative;
+  background-image: url(../images/banner.jpg);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  background-origin: content-box;
+  background-size: cover;
+  border-bottom: 4px solid #0f2b33; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/banner\/banner\.scss}line{font-family:\0000314}}
+.banner__content {
+  width: 295px;
+  position: absolute;
+  top: 30px;
+  right: 15px;
+  text-align: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/banner\/banner\.scss}line{font-family:\0000322}}
+.banner__header {
+  font-size: 28px;
+  font-weight: bold;
+  color: #73a806; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/banner\/banner\.scss}line{font-family:\0000328}}
+.banner__text {
+  font-size: 14px;
+  color: #000;
+  padding: 18px 0px 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/banner\/banner\.scss}line{font-family:\0000334}}
+.banner__sub__header {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 40px;
+  vertical-align: top; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/banner\/banner\.scss}line{font-family:\0000342}}
+.banner__link__img {
+  position: relative;
+  vertical-align: top;
+  padding: 0 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/content\/content\.scss}line{font-family:\000031}}
+.content {
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/content\/content\.scss}line{font-family:\000035}}
+.content__column {
+  width: 49%;
+  display: inline-block;
+  position: relative;
+  vertical-align: top; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/content\/content\.scss}line{font-family:\0000312}}
+.right {
+  float: right;
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/content\/content\.scss}line{font-family:\0000317}}
+.column__element {
+  margin-bottom: 3px;
+  border-bottom: 3px solid #0f2b33; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/content\/content\.scss}line{font-family:\0000322}}
+.column__element__image {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/content\/content\.scss}line{font-family:\0000326}}
+.column__element__link {
+  display: block;
+  background-color: #fff;
+  padding: 12px;
+  position: relative;
+  text-decoration: none;
+  color: #000;
+  font-size: 19px;
+  line-height: 30px;
+  margin-top: -4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/content\/content\.scss}line{font-family:\0000338}}
+.column__element__link__row {
+  position: absolute;
+  bottom: 20px;
+  right: 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/content\/__footer\/content__footer\.scss}line{font-family:\000031}}
+.content__footer {
+  background-color: #fff;
+  padding: 40px 15px 40px 30px;
+  margin-top: -4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/content\/__footer\/content__footer\.scss}line{font-family:\000037}}
+.content__footer__header,
+.content__footer__paragraph {
+  display: inline-block;
+  vertical-align: top; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/content\/__footer\/content__footer\.scss}line{font-family:\0000313}}
+.content__footer__header {
+  width: 30%;
+  font-size: 32px;
+  font-family: 'Trajan Color', serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+  padding: 2%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/content\/__footer\/content__footer\.scss}line{font-family:\0000323}}
+.content__footer__paragraph {
+  font-size: 12px;
+  width: 65%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/footer\/footer\.scss}line{font-family:\000031}}
+.footer {
+  text-align: center;
+  padding: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/footer\/footer\.scss}line{font-family:\000036}}
+.footer__text,
+.footer__text__link {
+  color: #fff;
+  font-size: 11px;
+  line-height: 20px; }
+
+@media only screen and (max-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\000032}}
+  .logo {
+    padding: 12px 10px 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\000036}}
+  .logo__header {
+    font-size: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\0000310}}
+  .logo__image {
+    padding-right: 10px;
+    width: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\0000315}}
+  .banner {
+    min-height: 170px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\0000319}}
+  .banner__content {
+    width: 210px;
+    top: 15px;
+    right: 7px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\0000325}}
+  .banner__header {
+    font-size: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\0000329}}
+  .banner__text {
+    font-size: 12px;
+    padding: 9px 0 7px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\0000334}}
+  .banner__sub__header {
+    font-size: 12px;
+    line-height: 28px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\0000339}}
+  .banner__link__img {
+    width: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\0000343}}
+  .column__element__link {
+    padding: 6px;
+    font-size: 14px;
+    line-height: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\0000349}}
+  .column__element__link__row {
+    bottom: 12px;
+    right: 6px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\0000354}}
+  .content__footer__header {
+    font-size: 24px;
+    padding: 1%; } }
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\0000361}}
+  .logo,
+  .social {
+    display: block;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\0000367}}
+  .social {
+    position: relative;
+    height: 21px;
+    padding-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\0000373}}
+  .banner {
+    background-position: bottom right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\0000377}}
+  .content__column {
+    width: auto;
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\0000382}}
+  .right {
+    float: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\0000386}}
+  .content__footer__header,
+  .content__footer__paragraph {
+    display: block;
+    width: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-3\/source\/styles\/media\/media__phone\.scss}line{font-family:\0000392}}
+  .content__footer {
+    padding: 20px 15px 40px; } }
