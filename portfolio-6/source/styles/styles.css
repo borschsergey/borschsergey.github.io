@@ -734,6 +734,14 @@
     position: absolute;
     bottom: 0;
     left: 35%; } }
+@media only screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-6\/source\/styles\/page_contact\/page_contact_media\.scss}line{font-family:\0000370}}
+  .column__information__header img {
+    left: 25%; } }
+@media only screen and (max-width: 420px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Polaro\/Desktop\/portfolio-6\/source\/styles\/page_contact\/page_contact_media\.scss}line{font-family:\0000380}}
+  .column__information__header img {
+    left: 15%; } }
 /*
 *=======================================
 *Media
