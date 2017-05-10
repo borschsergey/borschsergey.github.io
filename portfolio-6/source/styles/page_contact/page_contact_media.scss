@@ -62,3 +62,24 @@
         left: 35%;
     }
 }
+
+
+
+
+@media only screen and (max-width: 600px)
+{
+    .column__information__header img
+    {
+        left: 25%;
+    }
+}
+
+
+
+@media only screen and (max-width: 420px)
+{
+    .column__information__header img
+    {
+        left: 15%;
+    }
+}
