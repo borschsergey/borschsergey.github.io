@@ -1,0 +1,31 @@
+@import 'reset/reset.css';
+
+@import 'vars/vars.scss';
+
+@import 'header/header.scss';
+
+@import 'header/__logo/header__logo.scss';
+
+@import 'header/__menu/header__menu.scss';
+
+@import 'header/__social/header__social.scss';
+
+@import 'header/__slogan/header__slogan.scss';
+
+@import 'content/content.scss';
+
+@import 'content/__snippets/content__snippets.scss';
+
+@import 'content/__portfolio/content__portfolio.scss';
+
+@import 'content/__team/content__team.scss';
+
+@import 'footer/footer.scss';
+
+@import 'footer/__social/footer__social.scss';
+
+@import 'footer/__copy/footer__copy.scss';
+
+@import 'media/media__tablet.scss';
+
+@import 'media/media__phone.scss';
