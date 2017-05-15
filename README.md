@@ -25,9 +25,9 @@ https://borschsergey.github.io/portfolio-6/index3.html
 
 (flex):
 -------
-https://borschsergey.github.io/portfolio-7/
+https://borschsergey.github.io/portfolio-7/index.html
 
-https://borschsergey.github.io/portfolio-8/
+https://borschsergey.github.io/portfolio-8/index.html
 
 
 (repositopy):
