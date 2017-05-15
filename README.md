@@ -28,8 +28,3 @@ https://borschsergey.github.io/portfolio-6/index3.html
 https://borschsergey.github.io/portfolio-7/index.html
 
 https://borschsergey.github.io/portfolio-8/index.html
-
-
-(repositopy):
--------------
-https://github.com/borschsergey/borschsergey.github.io
