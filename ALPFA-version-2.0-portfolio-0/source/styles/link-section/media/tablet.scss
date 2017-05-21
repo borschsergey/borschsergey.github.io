@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1200px){
+  .wrapper{
+    position: static;
+  }
+
+  .link-section{
+    position: relative;
+    height: 85px;
+  }
+
+  .menu{
+    width: 98%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: -48px;
+  }
+
+  .lang{
+    right: 15px;
+  }
+}

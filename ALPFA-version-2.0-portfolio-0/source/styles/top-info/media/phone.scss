@@ -1,0 +1,113 @@
+@media only screen and (max-width: 720px){
+  .top-info{
+    background-color: #f1f5f8;
+    background-image: url('');
+  }
+
+  .top-info__coll__title {
+    margin-bottom: 0;
+    font-size: 23px;
+    text-decoration: underline;
+
+    span{
+      display: none;
+    }
+  }
+
+  .remain{
+    width: auto;
+    background-color: inherit;
+    height: auto;
+    box-shadow: 0 0;
+
+    .remain__cash-form{
+      width: auto;
+      display: block;
+    }
+  }
+
+  .remain__group_take,
+  .remain__group_give{
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .remain__group__input_take,
+  .remain__group__input_give{
+    width: 75%;
+    max-width: 610px;
+  }
+
+  .remain__banks__list__element,
+  .remain__banks__list__element__link{
+    margin: 2%;
+  }
+
+  .remain__nidmore {
+    text-align: center;
+    display: block;
+
+    .remain__nidmore__link{
+      display: none;
+    }
+  }
+
+  .remain__exchange__img{
+    right: 70%;
+  }
+}
+
+
+@media only screen and (max-width: 430px){
+  .lang__link {
+    margin-left: 5px;
+  }
+
+  .mobole-menu {
+    left: 10px;
+  }
+
+  .camon-menu {
+    left: 50px;
+  }
+
+  .top-info__box,
+  .top-info__coll,
+  .remain{
+    width: auto;
+    box-sizing: border-box;
+  }
+
+  .remain{
+    padding: 25px 0px;
+  }
+
+  .remain__group__input_give,
+  .remain__group__input_take {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 355px){
+  .top-info__coll{
+    text-align: center;
+  }
+
+  .remain > .remain__cash-form{
+    text-align: left;
+  }
+
+  .remain__cash-form {
+    min-width: 300px;
+  }
+
+  .remain__group__input_give,
+  .remain__group__input_take {
+    width: 50%;
+  }
+
+  .remain__exchange {
+    width: 80%;
+    display: inline-block;
+  }
+}

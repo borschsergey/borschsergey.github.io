@@ -1,0 +1,51 @@
+.rectangle__relog{
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  margin-left: 3%;
+}
+
+.rectangle__relog__sing,
+.rectangle__relog__reg{
+  display: inline-block;
+  position: relative;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 40px;
+  width: 130px;
+  border-radius: 5px;
+  vertical-align: baseline;
+}
+
+.rectangle__relog__sing{
+  background-color: $singColorBtn;
+  box-shadow: 0 3px 0 0 darken($singColorBtn, 10%);
+}
+
+.rectangle__relog__sing:hover{
+  background-color: lighten($singColorBtn, 5%);
+}
+
+.rectangle__relog__sing:active{
+  box-shadow: 0 3px 0 0 darken($singColorBtn, 10%) inset;
+}
+
+.rectangle__relog__reg{
+  background-color: $relogColorBtn;
+  box-shadow: 0 3px 0 0 darken($relogColorBtn, 10%);
+}
+
+.rectangle__relog__reg:hover{
+  background-color: lighten($relogColorBtn, 5%);
+}
+
+.rectangle__relog__reg:active{
+  box-shadow: 0 3px 0 0 darken($relogColorBtn, 10%) inset;
+}
+
+.rectangle__relog__remembe{
+  margin-top: 10px;
+  padding-top: 5px;
+}

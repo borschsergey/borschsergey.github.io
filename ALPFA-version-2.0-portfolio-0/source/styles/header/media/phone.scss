@@ -1,0 +1,70 @@
+@media only screen and (max-width: 720px){
+  .header__box .rectangle{
+    display: block;
+    text-align: center;
+  }
+
+  .header__box{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .header__box .rectangle .rectangle__support{
+    display: none;
+  }
+
+  .header__box .rectangle .rectangle__contact__phone{
+    display: block;
+    font-size: 23px;
+    padding-top: 15px;
+  }
+
+  .header__box .rectangle .rectangle__contact{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .rectangle__contact__numb {
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    box-shadow: 0 0;
+  }
+
+  .header__box .rectangle .rectangle__contact__numb__coll{
+    display: inline-block;
+    padding: 2px;
+  }
+
+  .rectangle__contact__numb__coll__elem{
+    display: inline-block;
+    font-size: 0;
+  }
+
+  .rectangle__contact__numb__coll__elem__icon{
+    top: -6px;
+  }
+
+  .header__box .rectangle .rectangle__contact__numb__coll_tablet{
+    display: none;
+  }
+
+
+
+  .header__box .rectangle .rectangle__relog{
+    margin: 0;
+    width: 190px;
+    position: absolute;
+    top: 34px;
+    z-index: 8;
+    left: 60px;
+    padding: 15px 10px;
+    background: #f1f5f8;
+    text-align: center;
+    display: none;
+  }
+
+  .rectangle__relog__remembe{
+    font-size: 14px;
+  }
+}
