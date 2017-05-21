@@ -1,0 +1,24 @@
+.header{
+  box-shadow: 0 2px 2px 0 darken($bg_top-link, 10%)
+}
+
+.header__box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.logo{
+  align-self: center;
+}
+
+.logo__link{
+  display: inline-block;
+  padding: 10px;
+}
+
+.logo__link__img{
+  width: 100%;
+}

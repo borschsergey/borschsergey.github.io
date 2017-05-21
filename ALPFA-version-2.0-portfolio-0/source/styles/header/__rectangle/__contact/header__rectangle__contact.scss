@@ -1,0 +1,59 @@
+.rectangle__contact{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.rectangle__contact__phone{
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.rectangle__contact__numb{
+  display: inline-block;
+  position: relative;
+  background-color: $bgPhone;
+  box-shadow: 0 3px 3px 0 $bg_top-link;
+}
+
+.rectangle__contact__numb__coll{
+  display: inline-block;
+  position: relative;
+  padding: 10px 15px;
+}
+
+.rectangle__contact__numb__coll__elem{
+  position: relative;
+  font-size: 12px;
+  font-weight: 700;
+  display: block;
+  padding: 6px 0;
+  padding-left: 25px;
+  vertical-align: baseline;
+}
+
+.rectangle__contact__numb__coll__elem__icon{
+  position: absolute;
+  top: 2px;
+  left: 0;
+  background-image: url('../img/telephone-icon.png');
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.rectangle__contact__numb__coll__elem__icon.vb{
+  background-position: 0px 0px;
+}
+
+.rectangle__contact__numb__coll__elem__icon.tl{
+  background-position: 0px -25px;
+}
+
+.rectangle__contact__numb__coll__elem__icon.wh{
+  background-position: -141px 0px;
+}
+
+.rectangle__contact__numb__coll__elem__icon.icq{
+  background-position: -141px -25px;
+}

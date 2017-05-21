@@ -1,0 +1,19 @@
+$bg_top-link: #f1f5f8;
+$bgListHover: #d4dde3;
+$menuLinkColor: #878f96;
+$menuLinkHoverColor: #6d7682;
+$bgPhone: #fff5c8;
+$singColorBtn: #42b91c;
+$relogColorBtn: #268fbd;
+$textColorTopInfo: #4c5867;
+
+*{
+  font-family: 'Roboto', sans-serif;
+  color: $menuLinkHoverColor;
+}
+
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}

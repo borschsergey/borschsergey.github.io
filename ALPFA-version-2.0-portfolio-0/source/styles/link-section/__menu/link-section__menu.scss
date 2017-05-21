@@ -1,0 +1,85 @@
+.menu{
+  max-width: 720px;
+  display: inline-block;
+}
+
+.menu__list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu__list__elem{
+  align-items: center;
+}
+
+.menu__list__elem:hover{
+  background-color: $bgListHover;
+}
+
+.menu__list__elem__link{
+  display: block;
+  text-decoration: none;
+  color: $menuLinkColor;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.menu__list__elem__link:hover{
+  text-decoration: underline;
+  color: $menuLinkHoverColor;
+}
+
+.mobole-menu{
+  position: absolute;
+  top: 3px;
+  left: 15px;
+  padding: 2px 4px;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px #fff inset;
+  cursor: pointer;
+  display: none;
+
+  .mobole-menu__text{
+    font-size: 23px;
+    font-weight: bold;
+  }
+}
+
+.mobole-menu:hover{
+  box-shadow: 0 0 2px 2px #111 inset;
+}
+
+.camon-menu{
+  position: absolute;
+  top: 8px;
+  left: 70px;
+  cursor: pointer;
+
+  .camon-menu__text{
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+.link-section > .wrapper > .camon-menu{
+  display: none;
+}
+
+.camon-menu::after{
+  top: 7px;
+	left: 105px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #666;
+	border-width: 5px;
+	margin-right: 0px;
+}
