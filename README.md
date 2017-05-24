@@ -29,10 +29,7 @@ https://borschsergey.github.io/portfolio-7/index.html
 
 https://borschsergey.github.io/portfolio-8/index.html
 
-
-
 ------------------------------------------------------
-
 
 
 (В работе)
