@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $('.rectangle__relog__sing').on('click', function(event) {
     $('.cameonform').fadeIn(500);
+    $('body').css({'overflow': 'hidden'});
 
 
   var field = new Array('login', 'pass');
@@ -25,6 +26,7 @@ $(document).ready(function() {
   if(error==0){
     return true;
     $('.cameonform').fadeOut(500);
+    $('body').css({'overflow': 'auto'});
   }	else {
     var err_text = '';
     if(error==1)  err_text='Не все обязательные поля заполнены!';
@@ -39,5 +41,6 @@ $(document).ready(function() {
 
   $('.login__form__close').on('click', function(event) {
     $('.cameonform').fadeOut(500);
+    $('body').css({'overflow': 'auto'});
   })
 });
