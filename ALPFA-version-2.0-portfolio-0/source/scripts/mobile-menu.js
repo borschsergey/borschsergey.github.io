@@ -16,8 +16,11 @@ $(document).ready(function() {
 
   $(window).resize(function() {
     var wid = $(window).width();
-    if (wid > 720 && menu.is(':hidden') && relogForm.is(':hidden')) {
+    if (wid > 720 && menu.is(':hidden')) {
       menu.removeAttr('style');
+    }
+
+    if (wid > 720 && relogForm.is(':hidden')) {
       relogForm.removeAttr('style');
     }
   });
