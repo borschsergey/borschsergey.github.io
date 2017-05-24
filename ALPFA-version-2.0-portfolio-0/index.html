@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet"> -->
   <link rel="stylesheet" href="source/styles/style.min.css">
 </head>
 <body>
@@ -127,12 +127,12 @@
 
 
             <div class="rectangle__relog">
-              <a href="" class="rectangle__relog__sing">Войти в профиль</a>
-              <a href="" class="rectangle__relog__reg">Регистрация</a>
+              <a href="#" class="rectangle__relog__sing">Войти в профиль</a>
+              <a href="#" class="rectangle__relog__reg">Регистрация</a>
               <p class="rectangle__relog__remembe">
-                <a href="" class="rectangle__relog__remembe__pass">Забыли пароль</a>
+                <a href="#" class="rectangle__relog__remembe__pass">Забыли пароль</a>
                  или
-                <a href="" class="rectangle__relog__remembe__log">логин</a> ?
+                <a href="#" class="rectangle__relog__remembe__log">логин</a> ?
               </p>
             </div>
           </div>
@@ -263,6 +263,31 @@
       </div>
     </section>
 
+    <section class="cameonform">
+
+      <form class="login__form" action="index.html" method="get">
+        <p class="login__form__close">X</p>
+        <h2 class="login__form__title">Вход в личный кабинет</h2>
+
+        <div class="messenger"></div>
+
+        <label class="login__form__loglabel" for="login">Enter You Login*</label>
+        <br>
+        <input class="login__form__loginp" type="text" name="login" placeholder="Enter You Login">
+
+        <br>
+
+        <label class="login__form__passlabel" for="password">Enter You Pass*</label>
+        <br>
+        <input class="login__form__passinp" type="password" name="pass" placeholder="Enter You Pass">
+
+        <br>
+
+        <button class="login__form__btn" type="submit" name="button">Submit</button>
+      </form>
+    </section>
+
+
 
 <script type="text/javascript" src="source/lib/jquery-3.2.0.min.js"></script>
 <script type="text/javascript" src="source/scripts/bank.js"></script>
@@ -270,5 +295,6 @@
 <script type="text/javascript" src="source/scripts/bank_menu.js"></script>
 <script type="text/javascript" src="source/scripts/mobile-menu.js"></script>
 <script type="text/javascript" src="source/scripts/tooltip.js"></script>
+<script type="text/javascript" src="source/scripts/login.js"></script>
 </body>
 </html>
