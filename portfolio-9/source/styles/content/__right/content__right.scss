@@ -130,22 +130,22 @@
       &:after{
       content: '';
       position:absolute;
-      bottom: 6px;
+      bottom: 10px;
       z-index:-1;
-      width: 300px;
+      width: 50%;
       height: 20px;
       }
 
       &:before{
-      right: 3px;
-      box-shadow: 0px 5px 5px rgba(0,0,0,.5);
-      transform: rotate(2deg) skew(-5deg);
+      right: .5%;
+      box-shadow: 0px 10px 5px rgba(0,0,0,.5);
+      transform: rotate(2.5deg) skew(-5deg);
       }
 
       &:after{
-      left: 3px;
-      box-shadow: 0px 5px 5px rgba(0,0,0,.5);
-      transform: rotate(-2deg) skew(5deg);
+      left: .5%;
+      box-shadow: 0px 10px 5px rgba(0,0,0,.5);
+      transform: rotate(-2.5deg) skew(5deg);
       }
 
       .title,
