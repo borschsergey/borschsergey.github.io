@@ -137,13 +137,13 @@
       }
 
       &:before{
-      right: .5%;
+      right: 1%;
       box-shadow: 0px 10px 5px rgba(0,0,0,.5);
       transform: rotate(2.5deg) skew(-5deg);
       }
 
       &:after{
-      left: .5%;
+      left: 1%;
       box-shadow: 0px 10px 5px rgba(0,0,0,.5);
       transform: rotate(-2.5deg) skew(5deg);
       }
