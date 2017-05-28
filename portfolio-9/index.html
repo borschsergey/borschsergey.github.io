@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="source/lib/animate.css-master/animate.min.css">
   <link rel="stylesheet" href="source/styles/style.min.css">
 </head>
 <body>
-  <header class="header">
+  <header class="header wow bounceInDown" data-wow-offset="200" data-wow-delay="0.5s" data-wow-duration="2s">
     <div class="wrapper">
       <div class="logo">
         <h1 class="logo__name">poz<span class="light">nan</span> - city<span class="light">2</span>live</h1>
@@ -39,7 +40,7 @@
 
 
 
-  <div class="main-image">
+  <div class="main-image wow fadeIn" data-wow-offset="200" data-wow-delay="0.5s" data-wow-duration="2s">
     <div class="wrapper">
       <h2 class="title">Visit Poz<span class="light">nan</span></h2>
 
@@ -100,7 +101,7 @@
 
 
 
-  <div class="content">
+  <div class="content wow zoomIn" data-wow-offset="200" data-wow-delay="0.5s" data-wow-duration="2s">
     <div class="wrapper">
       <div class="box">
         <aside class="left-content">
@@ -254,7 +255,7 @@
 
 
 
-  <div class="map">
+  <div class="map wow zoomInUp" data-wow-offset="200" data-wow-delay="0.5s" data-wow-duration="2s">
     <div class="wrapper">
       <h2 class="title">WHERE CAN I FIND MORE INFORMATION</h2>
       <iframe src="https://www.google.com/maps/d/embed?mid=19xGlvZ9vex5GVFdFI0eRBlCRl2c" width="100%" height="250"></iframe>
@@ -264,7 +265,7 @@
 
 
 
-  <div class="bottom-menu">
+  <div class="bottom-menu wow zoomInUp" data-wow-delay="0.5s" data-wow-duration="2s">
     <div class="wrapper">
       <h2 class="logo__name">poz<span class="light">nan</span> - city<span class="light">2</span>live</h2>
 
@@ -282,10 +283,20 @@
 
 
 
-  <footer class="footer">
+  <footer class="footer wow fadeIn" data-wow-duration="2s">
     <div class="wrapper">
       <p class="copy">all rights reserved 2013</p>
     </div>
   </footer>
+
+
+
+
+  <script type="text/javascript" src="source/lib/jquery-3.2.0.min.js"></script>
+  <script type="text/javascript" src="source/lib/WOW-master/dist/wow.min.js"></script>
+  <script type="text/javascript" src="source/scripts/element_animate.js"></script>
+  <script type="text/javascript">
+      new WOW().init();
+  </script>
 </body>
 </html>
