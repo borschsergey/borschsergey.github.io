@@ -1,7 +1,7 @@
-# borschsergey.github.io
+﻿# borschsergey.github.io
 MyWorks
 
-(block):
+View links:
 --------
 https://borschsergey.github.io/base/index.html
 
@@ -21,17 +21,10 @@ https://borschsergey.github.io/portfolio-6/index2.html
 
 https://borschsergey.github.io/portfolio-6/index3.html
 
-------------------------------------------------------
-
-(flex):
--------
 https://borschsergey.github.io/portfolio-7/index.html
 
 https://borschsergey.github.io/portfolio-8/index.html
 
-------------------------------------------------------
-(not RWD):
--------
 https://borschsergey.github.io/portfolio-9/index.html
 ------------------------------------------------------
 
