@@ -55,7 +55,7 @@ body {
   max-width: 1920px;
   position: relative;
   margin: 0 auto;
-  background-image: url(../../img/topBgBody.jpg);
+  background-image: url(../img/topBgBody.jpg);
   background-position: center 57px;
   background-repeat: no-repeat; }
 
@@ -282,7 +282,7 @@ body {
   height: 31px;
   top: 5px;
   left: -45px;
-  background-image: url(../../img/spritesheet.png);
+  background-image: url(../img/spritesheet.png);
   background-position: 112px 37px; }
 
 .text_subTitle {
@@ -337,7 +337,7 @@ a:hover {
     height: 11px;
     top: 55px;
     right: 40px;
-    background-image: url(../../img/spritesheet.png);
+    background-image: url(../img/spritesheet.png);
     background-position: -153px 37px; }
 
 .block_wrap {
@@ -383,7 +383,7 @@ a:hover {
   display: inline-block;
   width: 28px;
   height: 28px;
-  background: url(../../../img/spritesheet.png);
+  background: url(../img/spritesheet.png);
   background-position: -179px -3px; }
 
 .card_figure img {
@@ -426,7 +426,7 @@ a:hover {
     height: 24px;
     top: 10px;
     left: 10px;
-    background-image: url(../../img/spritesheet.png);
+    background-image: url(../img/spritesheet.png);
     background-position: -105px 38px; }
 
 .slide_title {
@@ -479,7 +479,7 @@ hr {
   width: 20px;
   height: 35px;
   position: absolute;
-  background: url(../../img/spritesheet.png);
+  background: url(../img/spritesheet.png);
   background-position: -125px 44px; }
 
 .slick-next {
