@@ -6,7 +6,7 @@ for (let i = 0; i < link.length; i++) {
         $(this).toggleClass('active_link');
 
         var blockWrap = $(this).next();
-        blockWrap.slideToggle(300);
+        blockWrap.stop().slideToggle(300);
     };
 };
 
