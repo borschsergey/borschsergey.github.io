@@ -46,3 +46,7 @@ https://borschsergey.github.io/Spring/base.html
 https://borschsergey.github.io/Spring/vacancies.html
 
 https://borschsergey.github.io/Spring/contacts.html
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+https://borschsergey.github.io/test/index.html
