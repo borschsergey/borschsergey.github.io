@@ -168,14 +168,14 @@ body {
     height: 20px;
     top: 9px;
     left: 10px;
-    background-image: url(../../img/spritesheet.png);
+    background-image: url(../img/spritesheet.png);
     background-position: -81px 37px; }
   .btn__location:after {
     width: 14px;
     height: 20px;
     top: 9px;
     left: 35px;
-    background-image: url(../../img/spritesheet.png);
+    background-image: url(../img/spritesheet.png);
     background-position: -58px 44px; }
 
 .btn__search {
@@ -191,7 +191,7 @@ body {
     height: 20px;
     top: 7px;
     left: 12px;
-    background-image: url(../../img/spritesheet.png);
+    background-image: url(../img/spritesheet.png);
     background-position: 19px 40px; }
 
 .user {
@@ -213,7 +213,7 @@ body {
           flex-direction: row; }
 
 .user_message {
-  background-image: url(../../img/spritesheet.png);
+  background-image: url(../img/spritesheet.png);
   background-position: 3px 8px; }
   .user_message:hover {
     background-position: -25px 8px; }
@@ -327,7 +327,7 @@ a:hover {
     height: 30px;
     top: 40px;
     left: 40px;
-    background-image: url(../../img/spritesheet.png);
+    background-image: url(../img/spritesheet.png);
     background-position: 70px 37px; }
   .block_link:after {
     content: " ";
