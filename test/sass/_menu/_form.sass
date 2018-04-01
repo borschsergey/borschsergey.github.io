@@ -1,0 +1,61 @@
+.form
+    height: 45px
+    width: 44.5%
+    margin-left: 6%
+
+.form_wrap
+    display: flex
+    flex-direction: row
+
+.form_btn, .form_input
+    height: 38px
+    border: 0
+    background: #fff
+    &:hover
+        cursor: pointer
+    &:focus
+        outline: none
+
+.form_input
+    width: calc(100% - 106px)
+    &:hover
+        cursor: text
+
+.btn__location
+    width: 64px
+    border-radius: 3px 0 0 3px
+    position: relative
+    &:after,&:before
+        content: " "
+        position: absolute
+        pointer-events: none
+    &:before
+        width: 14px
+        height: 20px
+        top: 9px
+        left: 10px
+        background-image: url(../../img/spritesheet.png)
+        background-position: -81px 37px
+    &:after
+        width: 14px
+        height: 20px
+        top: 9px
+        left: 35px
+        background-image: url(../../img/spritesheet.png)
+        background-position: -58px 44px
+
+
+.btn__search
+    width: 42px
+    border-radius: 0 3px 3px 0
+    position: relative
+    &:before
+        content: " "
+        position: absolute
+        pointer-events: none
+        width: 14px
+        height: 20px
+        top: 7px
+        left: 12px
+        background-image: url(../../img/spritesheet.png)
+        background-position: 19px 40px

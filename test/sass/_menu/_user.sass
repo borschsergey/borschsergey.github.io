@@ -1,0 +1,43 @@
+.user
+    position: absolute
+    top: 5px
+    right: 40px
+    text-align: right
+    vertical-align: top
+
+.user_wrap
+    display: flex
+    flex-direction: row
+
+.user_message
+    background-image: url(../../img/spritesheet.png)
+    background-position: 3px 8px
+    &:hover
+        background-position: -25px 8px
+
+.message_link
+    display: block
+    text-decoration: none
+    width: 30px
+    height: 33px
+    &:hover
+        text-decoration: none
+    .link_num
+        width: 3px
+        height: 5px
+        background: $bgNum
+        color: $headerColor
+        font-size: 12px
+        padding: 0px 4px
+        z-index: 2
+        border-radius: 2px
+
+.user_icon
+    width: 30px
+    height: 30px
+    margin-left: 44px
+    margin-top: 4px
+    .icon_img
+        display: block
+        img
+            border-radius: 50%

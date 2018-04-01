@@ -1,0 +1,39 @@
+.main
+    margin: 275px auto 200px
+    max-width: 1010px
+    &_content
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+
+.text_title, .text_subTitle
+    font-family: 'RobotoLight', sans-serif
+    color: $headerColor
+    margin-left: 110px
+    margin-bottom: 20px
+
+.text_title
+    font-size: 40px
+    position: relative
+
+.content_text .text_title:before
+    content: " "
+    position: absolute
+    width: 30px
+    height: 31px
+    top: 5px
+    left: -45px
+    background-image: url(../../img/spritesheet.png)
+    background-position: 112px 37px
+
+.text_subTitle
+    margin-bottom: 50px
+    font-size: 14px
+
+.aside_text
+    .text_title, .text_subTitle
+        margin-left: 0px
+
+a:hover
+    color: #000
+    text-decoration: none
