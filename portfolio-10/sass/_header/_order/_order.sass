@@ -1,0 +1,60 @@
+.top-info__order
+    width: 301px
+    background-color: #ffffff
+    border-radius: 5px
+    position: absolute
+    top: 70px
+    right: 80px
+    text-align: center
+    box-shadow: 0 0 0 8px rgba(255,255,255,.4)
+    /*from animate open/close*/
+    transform: scaleY(0)
+    transform-origin: top
+    transition: transform 0.2s ease
+    overflow: hidden
+    position: absolute
+
+.top-info__order--show
+    transform: scale(1)
+
+.order__form
+    font-size: 21px
+    padding: 20px
+    font-family: 'OpenSansLight'  
+    line-height: 1.5  
+    .form__title
+        font-weight: bold
+    .form__description
+        margin-bottom: 20px
+    .form__name, .form__phone, .form__message
+        font-family: 'OpenSansRegular', sans-serif
+        font-size: 14px
+        width: 225px
+        margin-bottom: 15px
+        height: 28px
+        background-repeat: no-repeat
+        padding-left: 35px
+        border: 1px solid gray
+    .form__message
+        height: 68px
+        resize: none
+    .form__send
+        padding: 15px 44px
+        background-color: #ff9000
+        border: 0
+        border-radius: 5px
+        font-size: 16px
+        color: #ffffff
+    .form__pact
+        font-size: 10px
+        margin-top: 15px
+        margin-bottom: 10px
+    .form__name
+        background-image: url('../img/p.png')
+        background-position: 6px 9px
+    .form__phone
+        background-image: url('../img/ph.png')
+        background-position: 10px 5px
+    .form__message
+        background-image: url('../img/h.png')
+        background-position: 10px 3px
