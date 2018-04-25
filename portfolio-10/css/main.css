@@ -1,4 +1,4 @@
-@import url(../sass/_reset/_reset.css);
+@import url(_reset/_reset.css);
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
