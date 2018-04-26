@@ -1,44 +1,57 @@
-(function() {
+$('#formOrder').click(function(e) {
+    e.preventDefault();
+    var container = $("#formOrderContent")
 
-    var formOrder = document.getElementById('formOrder');
+    if (!container.is(e.target) && container.has(e.target).length === 0) {
+        container.toggleClass("top-info__order--show");
+        $(this).toggleClass("form__btn--active");
+    } else {
+        container.toggleClass("top-info__order--show");
+        $(this).toggleClass("form__btn--active");
+    }
+});
 
-    formOrder.onclick = DropForm;
+$('.form__send').click(function(event) {
+    event.preventDefault();
 
-    function DropForm() {
-        document.getElementById("formOrderContent").classList.toggle("top-info__order--show");
-        document.getElementById("formOrder").classList.toggle("form__btn--active");
+    $("#formOrderContent").toggleClass("top-info__order--show");
+    $('#formOrder').toggleClass("form__btn--active");
+})
+
+$(document).click(function(event) {
+    if ($(event.target).closest("#formOrderContent, #formOrder").length)
         return false;
-    }
+    $("#formOrderContent").removeClass("top-info__order--show").stop(true, true);
+    $('#formOrder').removeClass("form__btn--active").stop(true, true);
+    event.stopPropagation();
+});
 
 
-    function BGM(link, cont) {
-        var burgMenu = document.getElementById(link);
 
-        burgMenu.onclick = moveFun;
+function BGM(link, cont) {
 
-        function moveFun() {
-            document.getElementById(cont).classList.toggle("dropdownContent--show");
-            return false;
+    $('#' + link).click(function(e) {
+        e.preventDefault();
+        var DRCont = $('#' + cont);
+
+        if ($(this).is(e.target) && $(this).has(e.target).length === 0) {
+            $(this).parent().find(DRCont).toggleClass("dropdownContent--show");
+        } else {
+            $(this).parent().find(DRCont).toggleClass("dropdownContent--show");
+
         }
 
-        window.onclick = function(e) {
-            if (!e.target.matches('.dropbtn')) {
+        $(document).click(function(event) {
+            if ($(event.target).closest('#' + link).length)
+                return false;
+            $(DRCont).removeClass("dropdownContent--show").stop(true, true);
+            event.stopPropagation();
+        });
+    });
+}
 
-                var dropdowns = document.getElementsByClassName("dropdownContent");
-                var i;
-                for (i = 0; i < dropdowns.length; i++) {
-                    var openDropdown = dropdowns[i];
-                    if (openDropdown.classList.contains('dropdownContent--show')) {
-                        openDropdown.classList.remove('dropdownContent--show');
-                    }
-                }
-            }
-            return false;
-        }
-    }
 
-    BGM('transport', 'transportContent');
-    BGM('price', 'priceContent');
-    BGM('careers', 'careersContent');
 
-})();
+BGM('transport', 'transportContent');
+BGM('price', 'priceContent');
+BGM('careers', 'careersContent');
