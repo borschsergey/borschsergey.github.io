@@ -10,13 +10,13 @@ $('#formOrder').click(function(e) {
         $(this).toggleClass("form__btn--active");
     }
 
-    $(document).click(function(event) {
-        if ($(event.target).closest("#formOrderContent, #formOrder").length) {
-            return false;
+    $(document).click(function(e) {
+        if ($(e.target).closest("#formOrderContent, #formOrder").length) {
+            return;
         }
         $("#formOrderContent").removeClass("top-info__order--show").stop(true, true);
         $('#formOrder').removeClass("form__btn--active").stop(true, true);
-        event.stopPropagation();
+        e.stopPropagation();
     });
 
     $(this).parent().find('.form__send').click(function() {
@@ -37,18 +37,16 @@ function BGM(link, cont) {
             $(this).parent().find(DRCont).toggleClass("dropdownContent--show");
         } else {
             $(this).parent().find(DRCont).toggleClass("dropdownContent--show");
-
         }
 
-        $(document).click(function(event) {
-            if ($(event.target).closest('#' + link).length)
+        $(document).click(function(e) {
+            if ($(e.target).closest('#' + link).length)
                 return false;
             $(DRCont).removeClass("dropdownContent--show").stop(true, true);
-            event.stopPropagation();
+            e.stopPropagation();
         });
     });
 }
-
 
 
 BGM('transport', 'transportContent');
