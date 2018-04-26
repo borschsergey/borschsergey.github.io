@@ -9,21 +9,20 @@ $('#formOrder').click(function(e) {
         container.toggleClass("top-info__order--show");
         $(this).toggleClass("form__btn--active");
     }
-});
 
-$('.form__send').click(function(event) {
-    event.preventDefault();
+    $(document).click(function(event) {
+        if ($(event.target).closest("#formOrderContent, #formOrder").length) {
+            return false;
+        }
+        $("#formOrderContent").removeClass("top-info__order--show").stop(true, true);
+        $('#formOrder').removeClass("form__btn--active").stop(true, true);
+        event.stopPropagation();
+    });
 
-    $("#formOrderContent").toggleClass("top-info__order--show");
-    $('#formOrder').toggleClass("form__btn--active");
-})
-
-$(document).click(function(event) {
-    if ($(event.target).closest("#formOrderContent, #formOrder").length)
-        return false;
-    $("#formOrderContent").removeClass("top-info__order--show").stop(true, true);
-    $('#formOrder').removeClass("form__btn--active").stop(true, true);
-    event.stopPropagation();
+    $(this).parent().find('.form__send').click(function() {
+        $("#formOrderContent").removeClass("top-info__order--show");
+        $('#formOrder').removeClass("form__btn--active");
+    });
 });
 
 
