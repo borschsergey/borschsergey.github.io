@@ -1,3 +1,8 @@
+window.onload = function() {
+    document.body.removeChild(document.getElementById('loading'));
+    document.getElementById('wrapper').style.display = 'block';
+}
+
 // accordion BEGIN
 var panelItem = document.querySelectorAll('.accordion'),
     active = document.getElementsByClassName('panel-active');
@@ -123,7 +128,7 @@ document.querySelector('body').addEventListener('click', function(e) {
 // footer menu accordion BEGIN
 var footerMenu = function() {
     var w = window.innerWidth;
-    // console.log('window innerWidth - ' + w);
+    console.log('window innerWidth - ' + w);
 
     if (w < 769) {
         var panelItem = document.querySelectorAll('.footer__menu>.menu__cont>.menu__title');
@@ -138,7 +143,7 @@ var footerMenu = function() {
     }
 };
 
-window.addEventListener('load', footerMenu, true);
+window.addEventListener('load', footerMenu);
 
-window.addEventListener('resize', footerMenu, true);
+window.addEventListener('resize', footerMenu);
 // footer menu accordion END
