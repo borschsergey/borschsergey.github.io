@@ -78,9 +78,7 @@ var slider = tns({
             "gutter": 0,
             "nav": true,
             "speed": 100,
-            "items": 1,
-            "speed": 1000,
-            "autoplayTimeout": 2000
+            "items": 1
         },
         768: {
             "nav": false,
