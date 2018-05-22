@@ -68,8 +68,6 @@ var slider = tns({
     "mouseDrag": true,
     "slideBy": "page",
     "swipeAngle": false,
-    "speed": 3000,
-    "autoplayTimeout": 5000,
     "controls": false,
     "autoplay": true,
     "autoplayHoverPause": true,
@@ -80,19 +78,25 @@ var slider = tns({
             "gutter": 0,
             "nav": true,
             "speed": 100,
-            "items": 1
+            "items": 1,
+            "speed": 1000,
+            "autoplayTimeout": 2000
         },
         768: {
             "nav": false,
             "fixedWidth": 220,
             "gutter": 90,
-            "items": 3
+            "items": 3,
+            "speed": 1000,
+            "autoplayTimeout": 2000
         },
         1280: {
             "nav": false,
             "gutter": 50,
             "fixedWidth": 220,
-            "items": 4
+            "items": 4,
+            "speed": 3000,
+            "autoplayTimeout": 5000,
         }
     }
 });
