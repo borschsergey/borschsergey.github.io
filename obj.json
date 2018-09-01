@@ -1,0 +1,44 @@
+[{
+		"title": "CS",
+		"img": "img/Screen.png",
+		"description": "HTML, CSS(SASS), JS, google map API, Gulp",
+		"vueLink": [{
+				"title": "CS",
+				"src": "../../CS/app/index.html"
+			}
+		]
+	},
+
+	{
+		"title": "MMG",
+		"img": "img/Screen1.png",
+		"description": "HTML, CSS(SASS), JS, Photoshop, Gulp",
+		"vueLink": [{
+				"title": "MMG",
+				"src": "../../MMG/app/index.html"
+			}
+		]
+	},
+
+	{
+		"title": "Mo_Go",
+		"img": "img/Screen2.png",
+		"description": "HTML, CSS(SASS), JS, CSS Grid layout, Gulp",
+		"vueLink": [{
+				"title": "Mo_Go",
+				"src": "../../mo_go/app/index.html"
+			}
+		]
+	},
+
+	{
+		"title": "Media",
+		"img": "img/Screen3.png",
+		"description": "HTML, CSS(SASS), JS, jQuery, Slick, Gulp",
+		"vueLink": [{
+				"title": "Media",
+				"src": "../../Media/app/index.html"
+			}
+		]
+	}
+]
