@@ -4,7 +4,7 @@
 		"description": "HTML, CSS(SASS), JS, google map API, Gulp",
 		"vueLink": [{
 				"title": "CS",
-				"src": "https://borschsergey.github.io/Works/CS/app/index.html"
+				"src": "https://borschsergey.github.io/Works/CS/index.html"
 			}
 		]
 	},
@@ -15,7 +15,7 @@
 		"description": "HTML, CSS(SASS), JS, Photoshop, Gulp",
 		"vueLink": [{
 				"title": "MMG",
-				"src": "https://borschsergey.github.io/Works/MMG/app/index.html"
+				"src": "https://borschsergey.github.io/Works/MMG/index.html"
 			}
 		]
 	},
@@ -26,7 +26,7 @@
 		"description": "HTML, CSS(SASS), JS, CSS Grid layout, Gulp",
 		"vueLink": [{
 				"title": "Mo_Go",
-				"src": "https://borschsergey.github.io/Works/mo_go/app/index.html"
+				"src": "https://borschsergey.github.io/Works/mo_go/index.html"
 			}
 		]
 	},
@@ -37,7 +37,7 @@
 		"description": "HTML, CSS(SASS), JS, jQuery, Slick, Gulp",
 		"vueLink": [{
 				"title": "Media",
-				"src": "https://borschsergey.github.io/Works/Media/app/index.html"
+				"src": "https://borschsergey.github.io/Works/Media/index.html"
 			}
 		]
 	},
