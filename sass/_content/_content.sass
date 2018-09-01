@@ -50,6 +50,10 @@
     background-image: url('../img/Screen3.png')
     background-size: cover
     background-position: center
+  &--five
+    background-image: url('../img/Screen0.png')
+    background-size: cover
+    background-position: center
   .vueBlock
     background-color: rgba(255,255,255,.7)
     width: 175px
@@ -82,10 +86,7 @@
         width: 32px
         height: 32px
 
-.hexagon--one .vueBlock .vueBlock__link::before,
-.hexagon--two .vueBlock .vueBlock__link::before,
-.hexagon--three .vueBlock .vueBlock__link::before,
-.hexagon--four .vueBlock .vueBlock__link::before
+.hexagonDone .vueBlock .vueBlock__link::before
   background-image: url('../img/eye.png')
 
 .hexCont:hover .vueBlock
@@ -145,7 +146,7 @@
   left: 50%
   transform: translate(-50%, -50%)
   width: 580px
-  height: 350px
+  height: 400px
   z-index: 9
   background-image: url('../img/Screen.png')
   background-size: cover

@@ -1,69 +1,82 @@
-//accordeon Begin
-let accListItem = document.getElementsByClassName('accordeon__item');
-console.log(accListItem);
-for (let i = 0; i < accListItem.length; i++) {
-  let accOpener = accListItem[i].children[0];
+let listItem = document.getElementsByTagName('li');
+let count = -60;
 
-  accOpener.addEventListener('click', function () {
-    for (var i = 0; i < accListItem.length; i++) {
-      accListItem[i].children[0].classList.remove('item__title--active')
-    }
-
-    this.classList.add('item__title--active');
-  });
+for (var i = 0; i < listItem.length; i++) {
+  listItem[i].style.transform = 'translateY('+count+'px)';
+  count-=50;
 }
-//accordeon End
 
-//scrollbar Begin
-var $ = document.querySelector.bind(document);
-var ps1 = new PerfectScrollbar('#containerAcc1');
-var ps2 = new PerfectScrollbar('#containerAcc2');
-var ps3 = new PerfectScrollbar('#containerAcc3');
-//scrollbar End
+let popUp = document.getElementById('popUp');
+let linkContainer = document.getElementById('vueLink__container');
+let proName = document.getElementById('name');
+let proSkillUse = document.getElementById('skillUse');
+let vueLink = document.getElementById('popUp__vueLink');
+let openerLinkCont = document.getElementsByClassName('hexagonDone');
+let links = [];
 
-//slider Begin
-var slider = tns({
-    "container": ".slider__list",
-    "mouseDrag": true,
-    "slideBy": "page",
-    "swipeAngle": false,
-    "speed": 1000,
-    "autoplayTimeout": 2000,
-    "controls": true,
-    "controlsContainer": ".slider__btn",
-    "prevButton": ".btn__prev",
-    "nextButton": ".btn__next",
-    "autoplay": true,
-    "autoplayHoverPause": true,
-    "autoplayButtonOutput": false,
-    "loop": true,
-    "nav": false,
-    "gutter": 60,
-    "fixedWidth": 950,
-    "items": 1
-});
-//slider End
+for (let i = 0; i < openerLinkCont.length; i++) {
+  links.push(openerLinkCont[i].querySelector('a'));
+}
 
+for (let i = 0; i < links.length; i++) {
+  links[i].addEventListener("click", aClick, false);
+}
 
-//slider Begin
-var slider = tns({
-    "container": ".sliderSecond__list",
-    "mouseDrag": true,
-    "slideBy": "page",
-    "swipeAngle": false,
-    "speed": 1000,
-    "autoplayTimeout": 2000,
-    "controls": true,
-    "controlsContainer": ".sliderSecond__btn",
-    "prevButton": ".btn__prev",
-    "nextButton": ".btn__next",
-    "autoplay": true,
-    "autoplayHoverPause": true,
-    "autoplayButtonOutput": false,
-    "loop": true,
-    "nav": false,
-    "gutter": 60,
-    "fixedWidth": 950,
-    "items": 1
-});
-//slider End
+function aClick(e) {
+  try { e.preventDefault(); }
+  catch (x) { e.returnValue = false; }
+  let num = this.getAttribute('href');
+
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var portfolioContent = JSON.parse(this.responseText);
+
+      proName.innerText = portfolioContent[num].title;
+      popUp.style.backgroundImage = 'url('+portfolioContent[num].img+')'
+      proSkillUse.innerText = portfolioContent[num].description;
+
+      let childLink = linkContainer.childNodes;
+
+      while (true) {
+        if (childLink.length != 0) {
+          childLink[0].remove()
+        } else {
+          break;
+        }
+      }
+
+      let ObjElem = portfolioContent[num].vueLink;
+
+      for (let i = 0; i < ObjElem.length; i++) {
+        var linkElem = document.createElement('a');
+        linkElem.setAttribute('href', ObjElem[i].src)
+        var linkContent = document.createTextNode(ObjElem[i].title);
+        var Space = document.createTextNode('\n\r');
+        linkElem.appendChild(linkContent);
+        linkContainer.appendChild(linkElem);
+        linkContainer.appendChild(Space);
+      }
+
+      e = e || event;
+      var popup = document.getElementsByClassName("popUp__container")[0];
+
+      if (popup.style.transform == 'translateY(0px)') {
+        popup.style.transform = 'translateY(-100vh)';
+      } else {
+        popup.style.transform = 'translateY(0px)';
+      };
+    }
+  };
+  xmlhttp.open("GET", "./obj.json", true);
+  xmlhttp.send();
+};
+
+window.onclick = function (e) {
+  if (!e.target.matches('#popUp') && e.target.matches('.popUp__container')) {
+    var dropdowns = document.getElementsByClassName("popUp__container")[0];
+      if (dropdowns.style.transform == 'translateY(0px)') {
+          dropdowns.style.transform = 'translateY(-100vh)';
+      };
+  };
+};

@@ -185,6 +185,11 @@ table {
     -webkit-background-size: cover;
             background-size: cover;
     background-position: center; }
+  .hexagon--five {
+    background-image: url("../img/Screen0.png");
+    -webkit-background-size: cover;
+            background-size: cover;
+    background-position: center; }
   .hexagon .vueBlock {
     background-color: rgba(255, 255, 255, 0.7);
     width: 175px;
@@ -221,10 +226,7 @@ table {
         width: 32px;
         height: 32px; }
 
-.hexagon--one .vueBlock .vueBlock__link::before,
-.hexagon--two .vueBlock .vueBlock__link::before,
-.hexagon--three .vueBlock .vueBlock__link::before,
-.hexagon--four .vueBlock .vueBlock__link::before {
+.hexagonDone .vueBlock .vueBlock__link::before {
   background-image: url("../img/eye.png"); }
 
 .hexCont:hover .vueBlock {
@@ -294,7 +296,7 @@ table {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 580px;
-  height: 350px;
+  height: 400px;
   z-index: 9;
   background-image: url("../img/Screen.png");
   -webkit-background-size: cover;
