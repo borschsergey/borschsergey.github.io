@@ -16,20 +16,34 @@
 				<nav class="nav">
 					<h2 class="nav__logo">MoGo</h2>
 					<ul class="nav__list">
-						<li class="list__item"><a href="#" class="item__link">about</a></li>
-						<li class="list__item"><a href="#" class="item__link">service</a></li>
-						<li class="list__item"><a href="#" class="item__link">work</a></li>
-						<li class="list__item"><a href="#" class="item__link">blog</a></li>
-						<li class="list__item"><a href="#" class="item__link">contact</a></li>
-						<li class="list__item"><a href="#" class="item__link item__link--cart"></a></li>
-						<li class="list__item"><a href="#" class="item__link item__link--search"></a></li>
+						<li class="list__item">
+							<a href="#about" class="item__link">about</a>
+						</li>
+						<li class="list__item">
+							<a href="#service" class="item__link">service</a>
+						</li>
+						<li class="list__item">
+							<a href="#work" class="item__link">work</a>
+						</li>
+						<li class="list__item">
+							<a href="#blog" class="item__link">blog</a>
+						</li>
+						<li class="list__item">
+							<a href="#contact" class="item__link">contact</a>
+						</li>
+						<li class="list__item">
+							<a href="#" class="item__link item__link--cart"></a>
+						</li>
+						<li class="list__item">
+							<a href="#" class="item__link item__link--search"></a>
+						</li>
 					</ul>
 				</nav>
 
 				<div class="welcome">
 					<h3 class="welcome__description">Creative Template</h3>
 					<h1 class="welcome__title">Welcome<br>to Mogo</h1>
-					<a href="#" class="welcome__btn">learn more</a>
+					<a href="#start" class="welcome__btn">learn more</a>
 				</div>
 
 				<div class="submenu">
@@ -46,9 +60,9 @@
 		</div>
 	</div>
 
-	<div class="wrap">
+	<div id="start" class="wrap">
 		<div class="container">
-			<h3 class="content__description">What we do</h3>
+			<h3 id="about" class="content__description">What we do</h3>
 			<h2 class="content__title">Story about us</h2>
 			<p class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
@@ -103,7 +117,7 @@
 		</div>
 	</div>
 
-	<div class="wrap">
+	<div id="service" class="wrap">
 		<div class="container">
 			<h3 class="content__description">We work with</h3>
 			<h2 class="content__title">Amazing Services</h2>
@@ -325,7 +339,7 @@
 		</div>
 	</div>
 
-	<div class="wrap wrap--work">
+	<div id="work" class="wrap wrap--work">
 		<div class="container">
 			<div class="content__image content__image--work">
 
@@ -477,7 +491,7 @@
 		</div>
 	</div>
 
-	<div class="wrap">
+	<div id="blog" class="wrap">
 		<div class="container">
 			<h3 class="content__description">Our stories</h3>
 			<h2 class="content__title">Latest blog</h2>
@@ -539,7 +553,7 @@
 		</div>
 	</div>
 
-	<div class="wrap wrap--info">
+	<div id="contact" class="wrap wrap--info">
 		<div class="container">
 			<div class="info">
 				<div class="info__subscribe">
@@ -626,6 +640,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/min/tiny-slider.helper.ie8.js"></script>
 	<![endif]-->
 	<script src="libs/perfectScrollbar/perfect-scrollbar.min.js" charset="utf-8"></script>
+	<script src="libs/smoothscroll.min.js" charset="utf-8"></script>
 	<script src="js/common.js"></script>
 </body>
 </html>
