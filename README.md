@@ -1,52 +1,12 @@
 ﻿# borschsergey.github.io
-MyWorks
 
-View links:
---------
-https://borschsergey.github.io/base/index.html
+Ссылка, для просмотра:
+https://borschsergey.github.io/
 
-https://borschsergey.github.io/porfolio-1/index.html
+Описание:
+Для самого порфолио используеться AJAX, sass;
+"Название" - используеться название сайта либо макета;
+"Что использовалось" - то что, применялось в работе в большей степени;
+"Ссылки для просмотра" - одна или несколько ссылок для просмотра/тестирования.
 
-https://borschsergey.github.io/portfolio-2/index.html
-
-https://borschsergey.github.io/portfolio-3/index.html
-
-https://borschsergey.github.io/portfolio-4/index.html
-
-https://borschsergey.github.io/portfolio-5/index.html
-
-https://borschsergey.github.io/portfolio-6/index.html
-
-https://borschsergey.github.io/portfolio-6/index2.html
-
-https://borschsergey.github.io/portfolio-6/index3.html
-
-https://borschsergey.github.io/portfolio-7/index.html
-
-https://borschsergey.github.io/portfolio-8/index.html
-
-https://borschsergey.github.io/portfolio-9/index.html
-
-https://borschsergey.github.io/ALPFA-version-2.0-portfolio-0/
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-(Spring-studio)
-
-https://borschsergey.github.io/Spring/index.html
-
-https://borschsergey.github.io/Spring/team.html
-
-https://borschsergey.github.io/Spring/advantages.html
-
-https://borschsergey.github.io/Spring/briefcases.html
-
-https://borschsergey.github.io/Spring/base.html
-
-https://borschsergey.github.io/Spring/vacancies.html
-
-https://borschsergey.github.io/Spring/contacts.html
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-https://borschsergey.github.io/portfolio-11/index.html
+Примечание: если указано название какого-либо графичесского редактора - это значит что была проведена работа с графикой, возможно из-за особенностей макета, либо по пожеланиям; указание перечня ссылок - указывает на многостраничность работы, либо на совокупность работ объеденнённых одной тематикой.
