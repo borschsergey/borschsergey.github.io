@@ -147,10 +147,7 @@ body {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center;
-  -webkit-align-content: center;
-      -ms-flex-line-pack: center;
-          align-content: center; }
+          align-items: center; }
   @media screen and (max-width: 1024px) {
     .menu {
       padding-left: 15px;
@@ -169,6 +166,9 @@ body {
       padding-right: 15px; } }
 
 .menu__list {
+  -webkit-align-self: stretch;
+      -ms-flex-item-align: stretch;
+          align-self: stretch;
   max-width: 1440px;
   padding-left: 15px;
   padding-right: 15px;
@@ -186,6 +186,10 @@ body {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   width: -webkit-calc(25% - 30px);
   width: calc(25% - 30px); }
   @media screen and (max-width: 1024px) {
@@ -246,12 +250,12 @@ body {
         padding: 15px 20px;
         color: #fff;
         font-family: 'MontserratBold'; }
-  .menu__list--last {
-    -webkit-box-pack: end;
-    -webkit-justify-content: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    padding-left: 30px; }
+
+.menu__list--last {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
 
 .card__blanc {
   padding: 95px 0;

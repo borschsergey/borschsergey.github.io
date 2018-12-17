@@ -12,11 +12,12 @@
   @include row-flex()
   @include justify-content(space-between)
   @include align-items(center)
-  align-content: center
 .menu__list
+  align-self: stretch
   @include wrapper()
   @include row-flex()
   @include align-items(center)
+  @include justify-content(start)
   @include col-3()
   .list__item
     padding-right: 30px
@@ -59,6 +60,5 @@
         padding: 15px 20px
         color: #fff
         font-family: 'MontserratBold'
-  &--last
-    @include justify-content(end)
-    padding-left: 30px
+.menu__list--last
+  @include justify-content(flex-end)
